@@ -1,0 +1,8 @@
+razdel
+pandas
+numpy
+scikit-learn
+joblib
+python-telegram-bot==22.3
+pymorphy2
+
