@@ -8,9 +8,9 @@ DATA_PATH = "data/sentiment_dataset.csv"  # путь к CSV с дата сето
 MODEL_PATH = "src/sentiment_model.pkl"    # путь для сохранения модели"""
 
 import os
-
+ 
 DATA_PATH = "/content/drive/MyDrive/sentiment_dataset.csv"
-MODEL_PATH = "artifacts/pipeline_rf.joblib"
+MODEL_PATH = "/pipeline_rf.joblib"
 
 
 
