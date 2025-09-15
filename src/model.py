@@ -45,7 +45,7 @@ print("Модель и векторизатор успешно сохранен�
 # Ипользуем пиплайн
 
 import pandas as pd  # работа с таблицами
-from src.config import DATA_PATH  # путь к CSV с данными
+from src.config import DATA_PATH, MODEL_PATH  # путь к CSV с данными
 from sklearn.model_selection import train_test_split  # разделение данных
 from sklearn.feature_extraction.text import TfidfVectorizer  # TF-IDF векторизация текста
 from sklearn.ensemble import RandomForestClassifier  # классификатор Random Forest
@@ -83,8 +83,6 @@ y_pred = pipeline.predict(X_test)  # предсказываем метки дл�
 # Сохраняем пайплайн в один файл
 joblib.dump(pipeline, MODEL_PATH)
 print("Пайплайн успешно сохранён!")
-
-
 
 
 
