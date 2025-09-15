@@ -9,9 +9,9 @@ MODEL_PATH = "src/sentiment_model.pkl"    # путь для сохранения
 
 import os
 
-# Путь к данным и модели
 DATA_PATH = "/content/drive/MyDrive/sentiment_dataset.csv"
 MODEL_PATH = "artifacts/pipeline_rf.joblib"
+
 
 
 
