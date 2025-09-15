@@ -38,6 +38,11 @@ y_pred = pipeline.predict(X_test)  # предсказываем метки дл�
 joblib.dump(pipeline, MODEL_PATH)
 print("Пайплайн успешно сохранён!")
 
+# Проверка пути к диску
+import os
+assert os.path.exists(DATA_PATH), f"❌ Файл не найден: {DATA_PATH}"
+
+
 
 
 
