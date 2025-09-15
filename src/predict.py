@@ -19,7 +19,7 @@ def predict_text(text: str) -> str:
     prediction = model.predict(X)[0]
 
     return prediction"""
-
+ 
 
 import joblib  # для загрузки сохранённого пайплайна
 
