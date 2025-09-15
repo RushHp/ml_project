@@ -26,3 +26,5 @@ Thumbs.db
 
 # Игнорируем большие файлы данных
 data/sentiment_dataset.csv
+
+artifacts/
