@@ -80,12 +80,11 @@ pipeline.fit(X_train, y_train)  # обучаем сразу весь пайпл�
 # Проверяем качество на тесте
 y_pred = pipeline.predict(X_test)  # предсказываем метки для тестовых данных
 
-print("Точность на тесте:", accuracy_score(y_test, y_pred))  # точность модели
-print(classification_report(y_test, y_pred))  # precision, recall, F1-score
-
 # Сохраняем пайплайн в один файл
-joblib.dump(pipeline, 'artifacts/pipeline_rf.joblib')
+joblib.dump(pipeline, MODEL_PATH)
 print("Пайплайн успешно сохранён!")
+
+
 
 
 
