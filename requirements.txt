@@ -1,8 +1,12 @@
+seaborn
+matplotlib
 razdel
-pandas
-numpy
-scikit-learn
-joblib
-pymorphy2
-python-telegram-bot==22.3
+pandas 
+numpy 
+scikit-learn 
+joblib 
+pymorphy2 
+python-telegram-bot==22.3 
+tqdm
+imbalanced-learn
 
